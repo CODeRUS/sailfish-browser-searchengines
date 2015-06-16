@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:referrer="http://a9.com/-/opensearch/extensions/referrer/1.0/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+	<ShortName>Seznam</ShortName>
+	<Description>Vyhledávání na Seznam.cz</Description>
+	<InputEncoding>UTF-8</InputEncoding>
+
+	<Image type="image/x-icon" width="16" height="16">http://seznam.cz/favicon.ico</Image>
+	<Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFGSURBVHjalNI/KEVRHMDxc+5DKZM3qNvbXH+ysSBFGMSgLDJKseCtymKwSK+UmVEmTG+RQQxKJgzkleVa3vAGIqXn+p763Tqdrnv51ad3T+fc3/vd3/npKIpUrVBQKdGCbvRhDPP4NButYagaEl5oloMjGEA7fGv/ERvxQjsVzGALnSkVhegwVbgVjONYZccJ6vHCTrCUcPgbb1L2Pc5QxldSglvMOgmeMYeb38rxrOcS9p1908B1FDGEJjeBTrjGKaxhOOEPD3GJI1RNE3XKHAxiQRL6zt4utknw4qV0+wqL6ME0DvAue8W4X/oPk2iHuf89+bwaFeQ99b94kms00eheY1b40pNNWa9mJcihCxOYxKicP8cOLuwEGm0I0J8LglK9UnngOY8PXGMFpzJcyp1E0+1eSfTKy8v83skIV9O+60eAAQAd5lci6mlq3QAAAABJRU5ErkJggg==</Image>
+	<Url type="text/html" method="GET" template="http://search.seznam.cz/?q={searchTerms}&amp;sourceid=Searchmodule_1" />
+	<Url type="application/x-suggestions+json" method="GET" template="http://suggest.fulltext.seznam.cz/fulltext_ff?phrase={searchTerms}"/>
+	<Query role="example" searchTerms="opice" />
+	<moz:SearchForm>http://search.seznam.cz/</moz:SearchForm>
+	<Tags>seznam.cz internet fulltext search</Tags>
+
+	<Contact>software@firma.seznam.cz</Contact>
+	<Language>cs</Language>
+	<Developer>Seznam.cz, a.s.</Developer>
+</OpenSearchDescription>

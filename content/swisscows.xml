@@ -1,0 +1,11 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+    <ShortName>Swisscows.ch</ShortName>
+    <Description>Search by Swisscows.ch</Description>
+    <InputEncoding>UTF-8</InputEncoding>
+    <LongName>Swisscows.ch Search</LongName>
+    <Image height="16" width="16">https://swisscows.ch/favicon.png</Image>
+    <Url type="text/html" method="get" template="https://swisscows.ch/?query={searchTerms}" />
+    <Url type="application/opensearchdescription+xml"
+         rel="self"
+         template="http://swisscows.ch/OpenSearch" />
+</OpenSearchDescription>

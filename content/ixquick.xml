@@ -1,0 +1,29 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+<!--  Created on Tue, 22 Nov 2011 05:58:38 GMT  -->
+<ShortName>Ixquick HTTPS</ShortName>
+<Description>Ixquick HTTPS Search Engine</Description>
+<Url type="text/html" method="post" template="https://ixquick.com/do/search">
+<Param name="query" value="{searchTerms}"/>
+<Param name="cat" value="web"/>
+<Param name="pl" value="ff"/>
+<Param name="language" value="english"/>
+</Url>
+<Url type="application/x-suggestions+json" template="https://ixquick.com/cgi-bin/csuggest">
+<Param name="query" value="{searchTerms}"/>
+<Param name="output" value="json"/>
+<Param name="pl" value="ff"/>
+<Param name="lang" value="english"/>
+</Url>
+<Image height="16" width="16">
+https://ixquick.com/toolbar/searchbar/en/ixquick.png
+</Image>
+<InputEncoding>UTF-8</InputEncoding>
+<moz:SearchForm>https://ixquick.com/</moz:SearchForm>
+<moz:UpdateUrl>
+https://ixquick.com/toolbar/searchbar/en/ixquick_ff_secure_en.xml
+</moz:UpdateUrl>
+<moz:IconUpdateUrl>
+https://ixquick.com/toolbar/searchbar/en/ixquick.png
+</moz:IconUpdateUrl>
+<moz:UpdateInterval>1</moz:UpdateInterval>
+</OpenSearchDescription>
